@@ -1,0 +1,98 @@
+﻿		* {
+			padding:0px;
+			margin:0px;
+			}
+		body {
+			background:#e6e6e6;
+			font-family:arial, helvetica, sans-serif;
+			text-align:justify;
+		}
+		section .article {
+			background:#fff;
+			font-family:arial, helvetica, sans-serif;
+			text-align:justify;
+			padding:0px;
+			margin:50px 0px 0px -20px;
+			}
+		div {
+			padding:0px;
+			margin:0px 0px 0px;
+			}
+		header, .main, footer {
+			background:#fff;
+			margin:20px auto;
+			width:90%;
+			max-width:2000px;
+			font-family:arial, helvetica, sans-serif;	
+			overflow:10px;
+			padding:0px;
+              }
+		ul, ol {
+			list-style:none;
+			}
+		.nav li a {
+			background-color:#0958E3;
+			color:#fff;
+			text-decoration:none;
+			padding:10px 15px;
+			display:block;
+			}
+		.nav li a:hover {
+			background-color:#8EB2F1;
+			}
+		.nav > li {
+			float:left;
+			}
+			
+		.nav li ul{
+			display:none;
+			position:absolute;
+			min-width:150px;
+			}
+		.nav li:hover > ul {
+            display:block;
+			}
+		.nav li ul li {
+		    position:relative;
+			}
+		.nav li ul li ul {
+		    right:-180px;
+		    top:0px;
+		    position:absolute;
+			}
+		 h1{
+			background:#99BBF7;
+			text-align:center;
+			text-shadow:5px 5px 5px #095DF1;
+			}
+		.main .article {
+			width:68.5%;
+			float:left;
+			margin-right:1.5%;
+			}
+		.main .article article {
+			padding:20px;
+			background:#fff;
+			margin-bottom:20px;
+			}	
+		aside{
+			width:18%;
+			background:#78D70C;
+			float:left;
+			padding:10px 10px 10px 10px;
+			box-siing:border-box;
+			text-align:justify;
+			margin:0px 0px 10px 0px;
+			}
+					
+		footer {
+			background:#000;
+			color:#fff;
+			clear:both;
+			padding:10px 0px;
+			text-align:center;
+
+			}	
+		#boton:hover{
+		    cursor:pointer;
+	}	
